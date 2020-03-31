@@ -5,7 +5,7 @@
 const crypto = require("crypto");
 let str = "hello";
 // console.log(crypto.getHashes())
-let md5 = crypto.createHash("md5");
+// let md5 = crypto.createHash("md5");
 let md5 = crypto.createHash("sha1");
 md5.update(str);
 // 输出md5值, 指定输出格式 hex

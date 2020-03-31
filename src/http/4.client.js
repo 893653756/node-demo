@@ -6,6 +6,7 @@ const http = require("http");
 let options = {
     host: "localhost",
     port: "8080",
+    path: '/pai',
     method: "POST",
     headers: {
         // "Content-Type": "application/json",
